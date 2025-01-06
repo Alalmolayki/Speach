@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Facebook, Instagram, Twitter, Menu, X } from 'lucide-react';
+import logo from '/public/image/speach-logo.png';
 
 const NavLinks = () => (
   <>
@@ -32,7 +33,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 flex items-center">
-            <span className="text-2xl font-bold text-blue-600">SPEACH</span>
+            <span className="text-2xl font-bold text-blue-600"><img src={logo} alt="Logo" height="70px" width="70px" /></span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">

@@ -1,4 +1,5 @@
 import React from 'react';
+import background from "/public/image/background.png";
 
 const Hero = () => {
   return (
@@ -6,7 +7,7 @@ const Hero = () => {
     <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-white">
       <div className="absolute inset-0 z-0">
         <img
-          src="public/image/background.png"
+          src={background}
           alt="Conference Background"
           className="w-full h-full object-cover opacity-20"
         />
