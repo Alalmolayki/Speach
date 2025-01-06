@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Facebook, Instagram, Twitter, Menu, X } from 'lucide-react';
+import { Instagram, Menu, X, Mail, TwitterIcon } from 'lucide-react';
 import logo from '/public/image/speach-logo.png';
 
 const NavLinks = () => (
@@ -17,10 +17,10 @@ const SocialIcons = () => (
       <Instagram size={20} />
     </a>
     <a href="#" className="text-gray-600 hover:text-blue-600 transition">
-      <Facebook size={20} />
+      <Mail size={20} />
     </a>
     <a href="#" className="text-gray-600 hover:text-blue-600 transition">
-      <Twitter size={20} />
+      <TwitterIcon size={20} />
     </a>
   </>
 );
