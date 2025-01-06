@@ -15,7 +15,7 @@ const Hero = () => {
           SPEACH - 2025
         </h1>
         <p className="text-xl md:text-2xl text-gray-700 mb-8">
-          9-13 Haziran | Speak For Change Humanity
+          13-15 Haziran | Speak For Change Humanity
         </p>
         <a
           href="#basvuru"
