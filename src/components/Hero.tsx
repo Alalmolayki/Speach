@@ -2,10 +2,11 @@ import React from 'react';
 
 const Hero = () => {
   return (
+    // https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80
     <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-white">
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80"
+          src="public/image/background.png"
           alt="Conference Background"
           className="w-full h-full object-cover opacity-20"
         />
